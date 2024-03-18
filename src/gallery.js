@@ -276,18 +276,18 @@ export const Gallerydata = [
         video:"https://www.youtube.com/embed/KO4gX6sa-hM?si=mUXx2qv5mOfdrQJB",
         description:"Promo for Desalite Jubilates 2.0 Anual Day - Feb 10 2024"
     },
-    {
-        id:56,
-        title:"Videos",
-        video:"https://www.youtube.com/embed/ZciVR9F2heY?si=TwHlGLtnoKqWSM98",
-        description:"Birthday of Fr. Thadews MSFS"
-    },
-    {
-        id:57,
-        title:"Videos",
-        video:"https://www.youtube.com/embed/Ir5sBuGcLds?si=hPXhlYaDU-vHff_N",
-        description:"VIII Std Class Day"
-    },
+    // {
+    //     id:56,
+    //     title:"Videos",
+    //     video:"https://www.youtube.com/embed/ZciVR9F2heY?si=cPeFkpQFQ9AxoqjO",
+    //     description:"Birthday of Fr. Thadews MSFS"
+    // },
+    // {
+    //     id:57,
+    //     title:"Videos",
+    //     video:"https://www.youtube.com/embed/Ir5sBuGcLds?si=hPXhlYaDU-vHff_N",
+    //     description:"VIII Std Class Day"
+    // },
     {
         id:58,
         title:"Videos",
@@ -312,12 +312,12 @@ export const Gallerydata = [
         video:"https://www.youtube.com/embed/7BqIVAG6_jw?si=7oIqRZ4T95_B5R8q",
         description:"Desalite jubilates 2.0 / Annual day part II"
     },
-    {
-        id:62,
-        title:"Videos",
-        video:"https://www.youtube.com/embed/H9emUcpJTaU?si=kp6C8Dv3wm83emiI",
-        description:"Annual Day / Western and classical mixed dance"
-    },
+    // {
+    //     id:62,
+    //     title:"Videos",
+    //     video:"https://www.youtube.com/embed/H9emUcpJTaU?si=kp6C8Dv3wm83emiI",
+    //     description:"Annual Day / Western and classical mixed dance"
+    // },
     {
         id:63,
         title:"Book Free Friday",
@@ -527,6 +527,11 @@ export const Gallerydata = [
         id:103,
         title:"Tamil Department Day",
         image:"./Gallery_images/td7.JPG",
+    },
+    {
+        id:104,
+        title:"Videos",
+        more:"https://youtube.com/@SFSPudukkottai?si=gmmVZGGlKzpgayfN",
     },
 
 ]

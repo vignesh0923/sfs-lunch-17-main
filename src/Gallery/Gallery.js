@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Top from "../Topscll/Top";
 
-import { Gallerydata } from "../gallery"
+import { Gallerydata } from "../gallery";
 import "./Gallery.css";
 
 import { IoImagesSharp } from "react-icons/io5";
@@ -24,9 +24,7 @@ const App = () => {
 
   const galleryfilter = (itemdata) => {
     if (itemdata === "Videos") {
-      const videoData = Gallerydata.filter(
-        (item) => item.title === "Videos"
-      );
+      const videoData = Gallerydata.filter((item) => item.title === "Videos");
       setData(videoData);
     } else {
       const filteredData = Gallerydata.filter(
@@ -38,13 +36,13 @@ const App = () => {
 
   return (
     <div>
-      <Navbar/>
-      <Top/>
-        <h1 data-aos="fade-up-right" className="gal-head">
-          <hr></hr>
-          Our Gallery
-          <hr></hr>
-        </h1>
+      <Navbar />
+      <Top />
+      <h1 data-aos="fade-up-right" className="gal-head">
+        <hr></hr>
+        Our Gallery
+        <hr></hr>
+      </h1>
       <div className="gallery-wrapper">
         <div className="filteritem">
           <ul>
@@ -52,7 +50,7 @@ const App = () => {
               <span className="log">
                 <BsCollectionFill />
               </span>
-             2023 - 2024
+              2023 - 2024
             </li>
             {collection.map((item) => (
               <li key={item} onClick={() => galleryfilter(item)}>
@@ -70,31 +68,37 @@ const App = () => {
           </ul>
         </div>
         <div data-aos="fade-up-right" className="gallery-container">
-  {data.map((item) => (
-    <div data-aos="fade-up-right" key={item.id} className="galleryitem">
-      {item.title === "Videos" ? (
-        <div>
-          <iframe 
-            className="vid"
-            src={item.video}
-            title="YouTube video player"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-          <p className="vid-des">{item.description}</p>
+          {data.map((item) => (
+            <div data-aos="fade-up-right" key={item.id} className="galleryitem">
+              {item.title === "Videos" ? (
+                <>
+                  <div>
+                    {item.video ? (
+                      <iframe
+                        className="vid"
+                        src={item.video}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allowFullScreen
+                      ></iframe>
+                    ) : (
+                      <a href={item.more} target="blank">
+                        <div className="gallery-item">
+                          <p>View all our videos on our YouTube channel.</p>
+                        </div>
+                      </a>
+                    )}
+                    <p className="vid-des">{item.description}</p>
+                  </div>
+                </>
+              ) : (
+                <img src={item.image} alt="" />
+              )}
+            </div>
+          ))}
         </div>
-      ) : (
-        <img src={item.image} alt="" />
-        
-      )}
-      {/* public\Gallery_images\7cld1.JPG */}
-      {/*  */}
-    </div>
-  ))}
-</div>
-
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -186,4 +186,20 @@
   text-align: center;
   text-transform: uppercase;
 }
-
+.gallery-item{
+  height: 250px;
+  width: 450px;
+  background-color: #22262c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.gallery-item>p{
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+a{
+  text-decoration: none;
+}
