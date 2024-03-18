@@ -80,7 +80,7 @@
 
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .left-principal>img{
         position: relative;
         width: 80%;
