@@ -291,3 +291,10 @@ form > div > p {
   gap: 5px;
   margin-top: 50px;
 }
+
+
+@media (max-width:1366px) {
+  .btn-1{
+    left: 35%;
+  }
+}

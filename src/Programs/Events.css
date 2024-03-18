@@ -111,7 +111,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
     .m-card .cards{
         width: 20rem;
     }
