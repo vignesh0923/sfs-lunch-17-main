@@ -50,7 +50,7 @@ function Navbar() {
             Industrial Visit for 4th and 9th Std On 23rd March
           </div>
           <div className="sliding-text">
-            {/* This is some sliding text! Look at it go! */}
+          Annual exam begins on 2nd April
           </div>
         </div>
       </div>

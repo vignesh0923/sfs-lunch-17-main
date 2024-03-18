@@ -76,7 +76,7 @@ export const event =[
       },
       {
         "title": "Kamarajar Day",
-        "content": "On the 1st of July 2023, Tamil Pepertunts observed the joyous celebration of Kamarajar Day, marking the occasion with cultural enthusiasm and pride. Various competitions were organized, each highlighting the profound importance of the Tamil language. Students actively participated, showcasing their linguistic talents and cultural awareness in a series of engaging events.",
+        "content": "On the 1st of July 2023, Tamil Department observed the joyous celebration of Kamarajar Day, marking the occasion with cultural enthusiasm and pride. Various competitions were organized, each highlighting the profound importance of the Tamil language. Students actively participated, showcasing their linguistic talents and cultural awareness in a series of engaging events.",
         "content2":"The day reached its pinnacle with the vibrant Yellow Day festivities, where participants were not only recognized for their outstanding contributions but also rewarded with prizes. Adding to the grandeur of the occasion, the esteemed Chef Guest, Miss RAGAVI, lent her presence and expertise, elevating the celebration and leaving an indelible mark on the collective spirit of the community. This fusion of cultural programs, linguistic significance, and recognition underscored the commitment to preserving and celebrating the rich heritage of Tamil language and culture.",
         "image": "./images/kam1.jpg",
         "heading": "15th July 2024"
