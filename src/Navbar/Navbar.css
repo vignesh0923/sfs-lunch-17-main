@@ -196,4 +196,10 @@
   }
 }
 
+@media (max-width: 800px) {
+  .main .images{
+    margin-right: 0px;
+  }
+}
+
 

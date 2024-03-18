@@ -118,7 +118,11 @@
     height: 130px;
   }
 }
-
+@media (max-width: 500px)and(min-width: 900px){
+  .banner{
+    min-width: 140%;
+  }
+}
 @media (max-width: 500px) {
   .banner {
     min-width: 80%;
@@ -134,6 +138,13 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 900px) {
+  .eventss{
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 380px) {
   .event > h1 {
     text-wrap: nowrap;
@@ -159,7 +170,7 @@
   }
 }
 .banner {
-  width: 22%;
+  width: 52%;
   height: 350px;
   text-align: center;
   color: white;

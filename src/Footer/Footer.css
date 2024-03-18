@@ -102,6 +102,12 @@
   }
 }
 
+@media (min-width: 730px) {
+  .s-mm hr{
+    display: none;
+  }
+}
+
 @media (max-width: 800px) {
   .line-content {
     flex-direction: column;

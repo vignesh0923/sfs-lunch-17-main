@@ -48,6 +48,10 @@
   .ourmission{
     margin-top: 150px; 
   }
+  .contentBx .size p {
+    overflow-y: scroll;
+    font-size: 11px;
+  }
 }
 
 .container-main .card-main:before {

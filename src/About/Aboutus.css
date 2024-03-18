@@ -20,10 +20,11 @@
 
   .about-left img{
     width: 300px;
-    height: 380px;
+    height: 300px;
   }
 
   .about-rigth p{
+    font-size: 12px;
     text-align: justify;
   }
 }
