@@ -98,4 +98,13 @@
     .event-center{
       padding: 10px 8px;
     }
+    .event-end p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:400px) {
+    .event-end p{
+        font-size: 12px;
+    }
 }
